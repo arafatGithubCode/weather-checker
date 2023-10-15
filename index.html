@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Practice Weather Checker</title>
+    <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="main_container">
+        <div class="w-50 mx-auto mt-4">
+            <h1 class="text-center py-3">Weather App</h1>
+            <form class="d-flex mx-5 px-2">
+                <input class="border-0 flex-grow-1" type="text" id="city_input" placeholder="Enter city">
+                <input class="border-0 btn btn-primary" type="submit" value="Get Weather">
+            </form>
+            <div class="weather_data">
+                <div class="icon text-center my-2 pt-2">
+                    <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+                </div>
+                <div class="temperature text-center pb-1"></div>
+                <div class="description text-center pb-4"></div>
+                <div class="details d-flex flex-wrap justify-content-center align-items-center">
+                    <!-- <div>Feels like: 36</div>
+                    <div>Humidity: 74%</div>
+                    <div>Wind speed: 5.14 m/s</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

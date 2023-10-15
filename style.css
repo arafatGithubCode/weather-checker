@@ -1,0 +1,35 @@
+form input {
+    outline: none;
+}
+form input[type="submit"] {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.w-50 {
+    box-shadow:
+  0.3px 0.4px 39.2px rgba(0, 0, 0, 0.034),
+  1.5px 1.7px 59px rgba(0, 0, 0, 0.049),
+  4.3px 4.9px 69.1px rgba(0, 0, 0, 0.061),
+  11.2px 12.7px 78.3px rgba(0, 0, 0, 0.076),
+  35px 40px 94px rgba(0, 0, 0, 0.11)
+}
+.details > div {
+    margin: 5px 5px 2rem;
+    background-color: #f1f1f1;
+    padding: 1rem 2.5rem 3.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.temperature {
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.description {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: grey;
+}
+img {
+    width: 120px;
+}
